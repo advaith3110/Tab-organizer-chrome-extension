@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Organizer",
+  "description": "Organize and group your tabs automatically. Search open tabs easily.",
+  "version": "1.1",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
